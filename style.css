@@ -1,0 +1,150 @@
+*{margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+header{
+    background: url(imagens/laranja.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 10rem);
+    margin-top: 10rem;  
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+::selection{
+    background-color:deepskyblue;
+}
+
+nav{
+    width: 100%;
+    height: 10rem;
+    top: 0;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    
+}
+
+.menu{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+     list-style: none;
+     display: flex;
+     font-size: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    transform: scale(1.5);
+    font-weight:bolder;
+}
+
+
+
+.lema{
+    height: 40%;
+    width: 80%;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+h2{
+    color: aliceblue;
+    font-size:7rem;
+    font-weight:bolder;
+}
+
+h3{ 
+    font-size: 3rem;
+    font-weight: lighter;
+    color: aliceblue;
+}
+
+
+.portflow{
+    font-size: 3em;
+    display: flex;
+    font-weight:bolder;
+}
+    
+
+.imagens{
+width: 80%;
+margin: 0 auto;
+margin-top: 5vw;
+
+}
+
+
+.rodape{
+    display:flex;
+}
+
+
+
+.maelogos{
+    margin-left: 10vw;
+}
+
+.logos{
+    margin: 1vw;
+
+}
+
+
+
+.copyright{
+    margin: 1vw 1vw 5vw 10vw;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+.consideracoes{
+    margin: 1vw;
+    font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+
+    ul{
+        display: none;
+    }
+
+    .portflow{
+        font-size: 1.5rem;
+        font-weight:bolder;
+
+    }
+
+    header{
+        wi
+    }
+}
